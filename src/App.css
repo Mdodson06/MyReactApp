@@ -1,0 +1,77 @@
+#root {
+  text-align: center;
+  background-color: #6b6b6b;
+
+}
+
+.external{
+  display:flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 75vw;
+  min-height: 65vh;
+  text-align: left;
+  padding:.1vh .5vw .1vh .5vw; 
+  border-style:solid;
+  border-color: #2d3237;
+  border-width: 0px 2px 0px 2px;
+  background-color:#506c58;
+  color:#faebd7;
+  iframe{
+    padding-left:5%;
+    background-color: white;
+  }
+}
+.sound{
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.exInternal{
+  flex-grow: 1;
+}
+#button {
+  flex-grow:0;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom:5px;
+}
+
+
+#header {
+  display: flex;
+  width: 100vw;
+  justify-content: center;  
+  padding-top:5vh;
+  padding-bottom:5vh;
+  font-family:'Times New Roman', Times, serif;
+  background: url("\\assets\\birdsFlying.gif");
+  background-size:100vw;
+  background-position:center;
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+  a{
+    color:#faebd7;
+    text-decoration: none;
+  }
+  a:hover{
+    color:#f3e5d3
+  }
+}
+
+#footer {
+  display: flex;
+  width: 100vw;
+  color:#faebd7;
+  justify-content: center;  
+  padding-top:5vh;
+  padding-bottom:5vh;
+  font-family:'Times New Roman', Times, serif;
+  box-shadow: inset 0 0 0 100vw #2d3237;
+}
+
+a{
+  text-decoration: underline;
+}
