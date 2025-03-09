@@ -46,7 +46,7 @@
   padding-top:5vh;
   padding-bottom:5vh;
   font-family:'Times New Roman', Times, serif;
-  background: url("\\assets\\birdsFlying.gif");
+  background: url("./assets/birdsFlying.gif");
   background-size:100vw;
   background-position:center;
   box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
